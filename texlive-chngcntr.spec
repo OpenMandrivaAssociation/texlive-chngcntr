@@ -1,3 +1,9 @@
+# revision 17157
+# category Package
+# catalog-ctan /macros/latex/contrib/chngcntr
+# catalog-date 2010-03-09 12:54:42 +0100
+# catalog-license lppl
+# catalog-version 1.0a
 Name:		texlive-chngcntr
 Version:	1.0a
 Release:	1
@@ -39,6 +45,7 @@ unsets such a relationship).
 %{_texmfdistdir}/tex/latex/chngcntr/chngcntr.sty
 %doc %{_texmfdistdir}/doc/latex/chngcntr/chngcntr.pdf
 %doc %{_texmfdistdir}/doc/latex/chngcntr/chngcntr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ unsets such a relationship).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
