@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-chngcntr
 Version:	1.0a
-Release:	5
+Release:	6
 Summary:	Change the resetting of counters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chngcntr
