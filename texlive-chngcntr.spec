@@ -5,8 +5,8 @@ Summary:	Change the resetting of counters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chngcntr
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.r47577.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.doc.r47577.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
