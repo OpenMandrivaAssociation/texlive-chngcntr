@@ -1,6 +1,6 @@
 Name:		texlive-chngcntr
 Version:	47577
-Release:	1
+Release:	2
 Summary:	Change the resetting of counters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chngcntr
