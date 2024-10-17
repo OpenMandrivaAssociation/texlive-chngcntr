@@ -3,7 +3,7 @@ Version:	47577
 Release:	2
 Summary:	Change the resetting of counters
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chngcntr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chngcntr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chngcntr.doc.r%{version}.tar.xz
